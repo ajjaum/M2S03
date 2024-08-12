@@ -1,4 +1,4 @@
-// 1) Crie uma variável que irá receber como valor um array de 4 notas.
+//Card 1
 let notas = [7.5, 8.0, 6.5, 9.0];
 
 // Função para calcular a média das notas
@@ -10,7 +10,7 @@ function calcularMedia(notas) {
     return soma / notas.length;
 }
 
-// Chamando a função e exibindo o resultado
+//Card 2
 let media = calcularMedia(notas);
 console.log("A média das notas é: " + media);
 
@@ -26,7 +26,7 @@ function verificarMedia(media) {
 // Chamando a função com a média calculada
 verificarMedia(media);
 
-// Função para imprimir os nomes dos alunos
+//Card 3
 function imprimirNomes(alunos) {
     alunos.forEach(function(nome) {
         document.write(nome + "<br>");
@@ -37,7 +37,7 @@ function imprimirNomes(alunos) {
 let nomesAlunos = ["Ana", "João", "Maria", "Carlos"];
 imprimirNomes(nomesAlunos);
 
-// Função para coletar e confirmar os dados do aluno
+//Card 5
 function coletarDadosAluno() {
     // a) Faça as seguintes 5 perguntas ao usuário:
     let nome = prompt("Qual o nome do aluno?");
@@ -81,7 +81,7 @@ function calcularMedia(notas) {
     return soma / notas.length;
 }
 
-// Função principal para capturar os dados e calcular a média
+// Card 6
 function sistemaDeNotas() {
     // Capturando o nome da matéria
     let nomeMateria = prompt("Digite o nome da matéria:");
@@ -118,7 +118,7 @@ function sistemaDeNotas() {
 // Chamando a função principal
 sistemaDeNotas();
 
-// Função para encontrar o maior número em um array
+// Card 7
 function encontrarMaiorNumero(numeros) {
     let maior = numeros[0];
     for (let i = 1; i < numeros.length; i++) {
